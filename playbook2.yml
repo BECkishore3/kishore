@@ -1,0 +1,9 @@
+---
+- hosts: mn1
+  tasks:
+
+  - name: create a directory
+    file:
+     path: /home/azureuser1/ravi
+     state: directory
+     mode: 0775      
