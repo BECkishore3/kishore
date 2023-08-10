@@ -1,0 +1,10 @@
+---
+- hosts: mn1
+  tasks:
+    
+  - name: create a new file
+    file:        
+     path: /home/azureuser1/file2.txt
+     state: touch
+     mode: 0775
+            
